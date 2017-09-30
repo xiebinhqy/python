@@ -3,6 +3,7 @@
 * [Introduction](README.md)
 * [Python初级教程](data.md)
   * [啊啊乳房](data/a-a-ru-fang.md)
+  * [通过version](data/tong-guoversion.md)
 * [aa](aa.md)
 * [jj](jj.md)
   * 纷纷为
