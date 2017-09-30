@@ -8,6 +8,6 @@
 * [aa](aa.md)
   * [斤斤计较](aa/jin-jin-ji-jiao.md)
 * [aar](aar.md)
-* [Python中级教程](02 Python中级教程.md)
+* [Python中级教程](02 Python中级教程/01 Python中级教程.md)
   * [1.Python数据库设计](02 Python中级教程/1.python数据库设计.md)
 
