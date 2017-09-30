@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](README.md)
+* [About](README.md)
 * [Python初级教程](data.md)
   * [1.啊啊乳房](data/a-a-ru-fang.md)
   * [2.通过version](data/tong-guoversion.md)
