@@ -6,5 +6,6 @@
   * [2.通过version](data/tong-guoversion.md)
   * [3.python 中文解码](data/python-zhong-wen-jie-ma.md)
 * [aa](aa.md)
+  * [斤斤计较](aa/jin-jin-ji-jiao.md)
 * [aar](aar.md)
 
