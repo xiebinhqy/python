@@ -5,9 +5,8 @@
 * [aa](aa.md)
 * [jj](jj.md)
 * [aar](aar.md)
-* [ooo](aar/ooo.md)
 
-## nnnnn
+## 01 python 初级教程
 
 * [asdfgfg](nnnnn/asdfgfg.md)
 * [qwer](nnnnn/qwer.md)
