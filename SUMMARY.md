@@ -7,4 +7,6 @@
   * [aa](Data/Python Expert/03_1 python expert/aa.md)
 * [4.Python终极框架](Data/ Python Frame/4_1 终极框架.md)
 * [5.HTML前段知识点](Data/HTML Knowledge/5_1 html knowledge base.md)
+* [6.Python Projects](Data/Python Projects/6_1 Python projects introduce.md)
+* [7.Python 网络爬虫](Data/Python Reptile/7_1 Python Reptile BASE.md)
 
