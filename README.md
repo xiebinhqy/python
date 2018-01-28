@@ -1,35 +1,8 @@
 # Deattor
 
-#### break
-
-1. .
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.打飞机是否考虑s反倒是fsk
-
-dfsfssew  
+#### 1. Python全栈项目开发以及教程
 
 
-
-
-
-
-
-
-rewrewrew
-
-rewrewqrewrewrew
-
-rewqrew
 
 .
 
