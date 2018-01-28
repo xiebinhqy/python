@@ -12,5 +12,6 @@
 
 ## python 知识点
 
-* [宝宝](python-zhong-ji-zhi-shi/bao-bao.md)
+* [Python课堂笔记](python notes/01_class_notes.md)
+  * [01\_system history](python notes/01_class_notes/01system-history.md)
 

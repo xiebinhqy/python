@@ -2,25 +2,15 @@
 
 #### 1. Python全栈项目开发以及教程：
 
-```
+1. 操作系统发展历史
+2. 二进制的定义
+3. 电脑编码 **   ASSIC  每一个字符都需要8个bit来存储**
 
-```
+### 计算机容量：
 
-“”“
 
-分第三方空间fkslfd索拉卡
 
-# ”“”jdsklj sdajk lDSA
 
-> FFFFDSAFDSA
-
-FDFDS
-
-```py
-FDSFDEW
-```
-
----
 
 
 
