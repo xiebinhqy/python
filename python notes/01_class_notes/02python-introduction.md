@@ -2,11 +2,11 @@
 
 ### 第一节课：**操作系**统发展史
 
-Python介绍
+### Python介绍
 
-发展史
+### 发展史
 
-被解救的姜戈
+### 被解救的姜戈
 
 > 2.4  50万行
 >
@@ -20,107 +20,88 @@ Python介绍
 >
 > Python 2.7 - July 3, 2010
 
-\\#目前业内主流使用的工业版本依然是2.7
+### \\#目前业内主流使用的工业版本依然是2.7
 
-print "hello world" \\#in 2.x
+`print "hello world" \#in 2.x`
 
-print\\("hello world"\\) \\#in 3.x
+`print\("hello world"\) \#in 3.x`
 
-In summary : Python 2.x is legacy, Python 3.x is the present and future of the language
+`In summary : Python 2.x is legacy, Python 3.x is the present and future of the language`
 
-总结: python2.x 是遗产， python3.x是现在和未来的语言
+### 总结: python2.x 是遗产， python3.x是现在和未来的语言
 
-Python 3.0 was released发布 in 2008. The final最终 2.x version 2.7 release came out in mid-2010,
+`Python 3.0 was released发布 in 2008. The final最终 2.x version 2.7 release came out in mid-2010,`
 
-with a statement声明 of extended延长 support支持 for this end-of-life release. The 2.x branch分支 will see no new major重大 releases after that.
+`with a statement声明 of extended延长 support支持 for this end-of-life release. The 2.x branch分支 will see no new major重大 releases after that.`
 
-3.x is under active development 正在活跃的开发 and has already已经 seen有了 over超过 five years of stable稳定的 releases版本, including包括 version版本 3.3 in 2012,
+`3.x is under active development 正在活跃的开发 and has already已经 seen有了 over超过 five years of stable稳定的 releases版本, including包括 version版本 3.3 in 2012,`
 
-3.4 in 2014, and 3.5 in 2015. This means意味着 that all recent近期的 standard标准的 library库 improvements升级/改进, for example例子, are only
+`3.4 in 2014, and 3.5 in 2015. This means意味着 that all recent近期的 standard标准的 library库 improvements升级/改进, for example例子, are only`
 
-available可用的 by default默认 in Python 3.x.
+### available可用的 by default默认 in Python 3.x.
 
-2.x = 默认编码 =ASSIC =不支持
+### 2.x = 默认编码 =ASSIC =不支持
 
-3.x = 默认编码 =UNICODE =默认支持中文
+### 3.x = 默认编码 =UNICODE =默认支持中文
 
 Guido van Rossum \(the original creator of the Python language\) decided决定 to clean up清理 Python 2.x properly适当的, with less regard不管 for backwards向后 compatibility兼容 than is the case for new releases in the 2.x range. The most drastic激进的 improvement is the better更好的 Unicode\(是一个编码\)中文支持 support \(with all text字符 strings being Unicode by default\) as well as saner bytes/Unicode separation.
 
 Besides另外, several几个 aspects方面 of the core核心 language \(such as print and exec being statements, integers using floor division\) have been adjusted调整为 to be easier更简单的 for newcomers新手 to learn and to be more consistent持续的 with the rest of the language, and old cruft has been removed \(for example, all classes are now new-style, "range\(\)" returns a memory efficient iterable, not a list as in 2.x\).
 
-python 2 vs 3
+#### python 2 vs 3
 
-1。 默认支持中文
+#### 1。 默认支持中文
 
-2. 不兼容2.x 
+1. #### 不兼容2.x
+2. #### 核心语法调整，更易学
+3. #### 新特性默认只在3.x上有
 
-3. 核心语法调整，更易学
+### 系统位数
 
-4. 新特性默认只在3.x上有
+##### 32bit =内存的最大寻址空间是2\_\_32， 4GB
 
+##### 64bit, =2\_\_64 但实际上支持不到这莫大的内存，2\_\_4x, 目前主板支持的最大的内存是100多GB
 
+##### 4gb ==64位系统 会不会比32位系统快？ = 一样的
 
-系统位数
+#### 硬盘：
 
-32bit =内存的最大寻址空间是2\\*\\*32， 4GB 
+```
+5400转 = 每分钟 =骑自行车
 
-64bit, =2\\*\\*64 但实际上支持不到这莫大的内存，2\\*\\*4x, 目前主板支持的最大的内存是100多GB
+7200转 = 每分钟 =骑电动车
 
-4gb ==64位系统 会不会比32位系统快？ = 一样的 
+10000转 = 每分钟 =骑快速电动车
 
-硬盘：
+15000转 = 每分钟 =骑摩托车  机械硬盘最快的
+SSD =    Tesla
+```
 
-    5400转 = 每分钟 =骑自行车
+### Python 2 or 3?
 
-    7200转 = 每分钟 =骑电动车
+### 安装
 
-    10000转 = 每分钟 =骑快速电动车
+### 交互器模式
 
-    15000转 = 每分钟 =骑摩托车  机械硬盘最快的
+#### 开始--》cmd --&gt; cd c:  --&gt;dir
 
+#### cd = change directory
 
+#### dir = 查看当前目录文件列表
 
-    SSD =    Tesla
+#### cd .. 返回上一层目录
 
-Python 2 or 3?
+#### cd ../.. 返回上上一层目录
 
-安装
+#### cd ../../.. 返回上上上一层目录
 
-交互器模式
-
-
-
-开始--》cmd --&gt; cd c:\  --&gt;dir 
-
-
-
-cd = change directory 
-
-
-
-dir = 查看当前目录文件列表
-
-
-
-cd .. 返回上一层目录
-
-
-
-cd ../.. 返回上上一层目录
-
-
-
-cd ../../.. 返回上上上一层目录
-
-
-
-cd ../../../.. 返回上上上上一层目录
+#### cd ../../../.. 返回上上上上一层目录
 
 D:\&gt;"d:\Program Files\Python35\python.exe" c:\hello.txt
 
 Hello World!
 
-\\#c:\hello.txt   .txt 代表文件的扩展名（后缀名），用于区分文件类型
+### \\#c:\hello.txt   .txt 代表文件的扩展名（后缀名），用于区分文件类型
 
 .txt 记事本文本文件
 
@@ -148,11 +129,9 @@ Hello World!
 
 .php php文件
 
-.js   javascript 
+.js   javascript
 
 ### python环境变量的增加
-
-
 
 D:\Program Files\Python35\Scripts\;
 
@@ -162,17 +141,11 @@ D:\ProgramFiles\Python35\;
 
 D:\Program Files\Python27
 
-
-
 执行py程序方式为:
 
+1. 交互器，缺点程序不能永久保存，主要用与简单的语法测试相关
 
-
-    1. 交互器，缺点程序不能永久保存，主要用与简单的语法测试相关
-
-
-
-    2. 文件执行
+1. 文件执行
 
 Hello World程序
 
@@ -186,13 +159,13 @@ Variables变量 are used to store保存、储存 information信息 to be referen
 
 1. 要具有描述性
 
-1. 变量名只能\\_,数字，字母组成，不可以是空格或特殊字符\\(\\#?&lt;.，￥$\\*!~\\)
+2. 变量名只能\\_,数字，字母组成，不可以是空格或特殊字符\\(\\#?&lt;.，￥$\\*!~\\)
 
-1. 不能以中文为变量名
+3. 不能以中文为变量名
 
-1. 不能以数字开头
+4. 不能以数字开头
 
-1. 保留字符是不能被使用
+5. 保留字符是不能被使用
 
 常量 ：不变的量 pie = 3.141592653....
 
@@ -229,7 +202,7 @@ Python2.x == Assic 默认编码
 
 
 
-\\#coding:utf-8 
+\\#coding:utf-8
 ```
 
 python3.x == unicode默认编码
