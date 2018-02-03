@@ -149,31 +149,27 @@ Hello World!
 
 Hello World程序
 
-变量
+### **变量**
 
-变量 是 为了存储 程序运算过程中的一些中间 结果，为了方便日后调用
+### 变量 是 为了存储 程序运算过程中的一些中间 结果，为了方便日后调用
 
 Variables变量 are used to store保存、储存 information信息 to be referenced被日后调用 and manipulated操作或更改 in a computer program程序. They also并且还 provide提供 a way方式 of labeling标记 data数据 with a descriptive描述性 name, so our programs can be understood理解 more clearly更清晰 by the reader阅读者 and ourselves我们自己. It is helpful to think of variables as containers容器 that hold保持、保存 information\\(如果我们把变量看作成是一个保存信息的容器是更容易理解的\\). Their sole主要 purpose目的 is to label标记 and store存储 data in memory内存里. This data数据 can then然后 be used使用它 throughout整个 your program.
 
-变量的命名规则
+## 变量的命名规则
 
-1. 要具有描述性
+1. #### 要具有描述性
+2. #### 变量名只能\\_,数字，字母组成，不可以是空格或特殊字符\\(\\#?&lt;.，￥$\\*!~\\)
+3. #### 不能以中文为变量名
+4. #### 不能以数字开头
+5. #### 保留字符是不能被使用
 
-2. 变量名只能\\_,数字，字母组成，不可以是空格或特殊字符\\(\\#?&lt;.，￥$\\*!~\\)
+#### 常量 ：不变的量 pie = 3.141592653....
 
-3. 不能以中文为变量名
+### 在py里面所有的变量都是可变的 ,所以用全部大写的变量名来代表次变量为常量
 
-4. 不能以数字开头
+### 内存何时释放？
 
-5. 保留字符是不能被使用
-
-常量 ：不变的量 pie = 3.141592653....
-
-在py里面所有的变量都是可变的 ,所以用全部大写的变量名来代表次变量为常量
-
-内存何时释放？
-
-字符编码
+### 字符编码
 
 支持中文的第一张表就叫 GB2312
 
@@ -199,8 +195,6 @@ Python2.x == Assic 默认编码
 
 ```
 \\#!-\\*- coding:utf-8 -\\*- 
-
-
 
 \\#coding:utf-8
 ```
@@ -229,21 +223,23 @@ unicode 是向下兼容gb2312 , gbk
 
 表达式if ...else语句
 
-```
-缩进 IndentationError: expected an indented block
 
-                            ^
 
-IndentationError: unindent does not match any outer indentation level
+`缩进 IndentationError: expected an indented block`
 
-SyntaxError: invalid syntax 语法错误
+`        ^`
 
-tab != 4个空格
+`IndentationError: unindent does not match any outer indentation level`
+
+`SyntaxError: invalid syntax 语法错误`
+
+
+
+## tab != 4个空格
 
 
 
 缩进级别必须保持一致
-```
 
 表达式for 循环
 
