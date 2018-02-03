@@ -163,6 +163,15 @@ Variables变量 are used to store保存、储存 information信息 to be referen
 4. #### 不能以数字开头
 5. #### 保留字符是不能被使用
 
+####  比如：
+
+```py
+student_number = "alex" # 这是一种
+studtentNumberPython = "lisa"  #这是另一种
+```
+
+#### 
+
 #### 常量 ：不变的量 pie = 3.141592653....
 
 ### 在py里面所有的变量都是可变的 ,所以用全部大写的变量名来代表次变量为常量
