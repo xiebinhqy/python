@@ -222,6 +222,16 @@ Python2.x == Assic 默认编码
 
 python输入——用户交互程序：
 
+```py
+
+
+
+
+name = input（“your name:”）
+age = input("your age:")
+
+```
+
 模块初识
 
 .pyc是个什么鬼？
