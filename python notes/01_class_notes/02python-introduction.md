@@ -103,49 +103,49 @@ Hello World!
 
 ### \\#c:\hello.txt   .txt 代表文件的扩展名（后缀名），用于区分文件类型
 
-.txt 记事本文本文件
+### .txt 记事本文本文件
 
-.doc word文件
+#### .doc word文件
 
-.xls excel文件
+#### .xls excel文件
 
-.ppt PPT文件
+#### .ppt PPT文件
 
-.exe 可执行文件
+#### .exe 可执行文件
 
-.jpg .png  .jpeg  图片
+#### .jpg .png  .jpeg  图片
 
-.gif 动态图片
+#### .gif 动态图片
 
-.pdf     PDF文件
+#### .pdf     PDF文件
 
-.mp4 .avi 视频
+#### .mp4 .avi 视频
 
-.py   python文件
+#### .py   python文件
 
-.java java 文件
+#### .java java 文件
 
-.c .h  c源码
+#### .c .h  c源码
 
-.php php文件
+#### .php php文件
 
-.js   javascript
+#### .js   javascript
 
 ### python环境变量的增加
 
-D:\Program Files\Python35\Scripts\;
+#### `D:\Program Files\Python35\Scripts\;`
 
-D:\ProgramFiles\Python35\;
+#### `D:\ProgramFiles\Python35\;`
 
-%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;
+#### `%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;`
 
-D:\Program Files\Python27
+#### `D:\Program Files\Python27`
 
 执行py程序方式为:
 
 1. 交互器，缺点程序不能永久保存，主要用与简单的语法测试相关
 
-1. 文件执行
+2. 文件执行
 
 Hello World程序
 
