@@ -8,63 +8,31 @@ Python介绍
 
 被解救的姜戈
 
-`2.4  50万行`
-
-`Python 2.6 - October 1, 2008 `
-
-`Python 2.6.1 - October 1, 2008 `
-
-`Python 2.6.6 - October 1, 2008 `
-
-`Python 3.0 - December 3, 2008`
-
-`Python 2.7 - July 3, 2010  `
-
-
+> 2.4  50万行
+>
+> Python 2.6 - October 1, 2008
+>
+> Python 2.6.1 - October 1, 2008
+>
+> Python 2.6.6 - October 1, 2008
+>
+> Python 3.0 - December 3, 2008
+>
+> Python 2.7 - July 3, 2010
 
 \\#目前业内主流使用的工业版本依然是2.7
 
-
-
 print "hello world" \\#in 2.x
-
-
 
 print\\("hello world"\\) \\#in 3.x
 
-
-
-
-
-
-
-
-
-
-
 In summary : Python 2.x is legacy, Python 3.x is the present and future of the language
-
-
-
-
-
-
 
 总结: python2.x 是遗产， python3.x是现在和未来的语言
 
-
-
-
-
-
-
 Python 3.0 was released发布 in 2008. The final最终 2.x version 2.7 release came out in mid-2010,
 
-
-
 with a statement声明 of extended延长 support支持 for this end-of-life release. The 2.x branch分支 will see no new major重大 releases after that.
-
-
 
 3.x is under active development 正在活跃的开发 and has already已经 seen有了 over超过 five years of stable稳定的 releases版本, including包括 version版本 3.3 in 2012,
 
@@ -82,7 +50,6 @@ Besides另外, several几个 aspects方面 of the core核心 language \(such as 
 
 python 2 vs 3
 
-```
 1。 默认支持中文
 
 2. 不兼容2.x 
@@ -93,27 +60,13 @@ python 2 vs 3
 
 
 
-
-
-
-
-
-
 系统位数
 
+32bit =内存的最大寻址空间是2\\*\\*32， 4GB 
 
-
-32bit =内存的最大寻址空间是2\*\*32， 4GB 
-
-64bit, =2\*\*64 但实际上支持不到这莫大的内存，2\*\*4x, 目前主板支持的最大的内存是100多GB
-
-
-
-
+64bit, =2\\*\\*64 但实际上支持不到这莫大的内存，2\\*\\*4x, 目前主板支持的最大的内存是100多GB
 
 4gb ==64位系统 会不会比32位系统快？ = 一样的 
-
-
 
 硬盘：
 
@@ -127,53 +80,47 @@ python 2 vs 3
 
 
 
-    SSD =    Tesla 
-```
+    SSD =    Tesla
 
 Python 2 or 3?
 
 安装
 
-```
 交互器模式
 
 
 
 开始--》cmd --&gt; cd c:\  --&gt;dir 
 
+
+
 cd = change directory 
+
+
 
 dir = 查看当前目录文件列表
 
 
 
-
-
 cd .. 返回上一层目录
+
+
 
 cd ../.. 返回上上一层目录
 
+
+
 cd ../../.. 返回上上上一层目录
 
+
+
 cd ../../../.. 返回上上上上一层目录
-
-
-
-
-
-
-
-
 
 D:\&gt;"d:\Program Files\Python35\python.exe" c:\hello.txt
 
 Hello World!
 
-
-
-
-
-\#c:\hello.txt   .txt 代表文件的扩展名（后缀名），用于区分文件类型
+\\#c:\hello.txt   .txt 代表文件的扩展名（后缀名），用于区分文件类型
 
 .txt 记事本文本文件
 
@@ -203,9 +150,7 @@ Hello World!
 
 .js   javascript 
 
-
-
-环境变量
+### python环境变量的增加
 
 
 
@@ -219,14 +164,15 @@ D:\Program Files\Python27
 
 
 
-
-
 执行py程序方式为:
+
+
 
     1. 交互器，缺点程序不能永久保存，主要用与简单的语法测试相关
 
+
+
     2. 文件执行
-```
 
 Hello World程序
 
@@ -234,165 +180,61 @@ Hello World程序
 
 变量 是 为了存储 程序运算过程中的一些中间 结果，为了方便日后调用
 
-
-
-
-
-
-
 Variables变量 are used to store保存、储存 information信息 to be referenced被日后调用 and manipulated操作或更改 in a computer program程序. They also并且还 provide提供 a way方式 of labeling标记 data数据 with a descriptive描述性 name, so our programs can be understood理解 more clearly更清晰 by the reader阅读者 and ourselves我们自己. It is helpful to think of variables as containers容器 that hold保持、保存 information\\(如果我们把变量看作成是一个保存信息的容器是更容易理解的\\). Their sole主要 purpose目的 is to label标记 and store存储 data in memory内存里. This data数据 can then然后 be used使用它 throughout整个 your program.
-
-
-
-
-
-
 
 变量的命名规则
 
-
-
 1. 要具有描述性
 
+1. 变量名只能\\_,数字，字母组成，不可以是空格或特殊字符\\(\\#?&lt;.，￥$\\*!~\\)
 
+1. 不能以中文为变量名
 
-2. 变量名只能\\_,数字，字母组成，不可以是空格或特殊字符\\(\\#?&lt;.，￥$\\*!~\\)
+1. 不能以数字开头
 
+1. 保留字符是不能被使用
 
-
-3. 不能以中文为变量名
-
-
-
-4. 不能以数字开头
-
-
-
-5. 保留字符是不能被使用
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-常量 ：不变的量 pie = 3.141592653.... 
-
-
+常量 ：不变的量 pie = 3.141592653....
 
 在py里面所有的变量都是可变的 ,所以用全部大写的变量名来代表次变量为常量
 
-
-
-
-
-
-
-
-
-
-
 内存何时释放？
-
-
-
-
-
-
-
-
-
-
 
 字符编码
 
-
-
-支持中文的第一张表就叫 GB2312 
-
-
-
-
-
-
+支持中文的第一张表就叫 GB2312
 
 1980 gb2312 6700+
 
-
-
 1995 gbk1.0 20000
 
-
-
-2000 gb18030 27000 
-
-
+2000 gb18030 27000
 
 big5 台湾
 
+unicode 万国码  支持所有国家和地区的编码
 
-
-
-
-
-
-unicode 万国码  支持所有国家和地区的编码 
-
-
-
-2\\*\\*16 = 65535 = 存一个字符 统一占用2个字节
-
-
+2\_\_16 = 65535 = 存一个字符 统一占用2个字节
 
 UTF-8 = unicode 的扩展集，可变长的字符编码集
 
+Assic --&gt;Gb2312 -&gt;gbk1.0--&gt;gb18030
 
-
-Assic --&gt;Gb2312 -&gt;gbk1.0--&gt;gb18030 
-
-
-
-Assic --&gt;unicode --&gt;utf-8   /utf-16 
-
-
+Assic --&gt;unicode --&gt;utf-8   /utf-16
 
 Python2.x == Assic 默认编码
 
-
-
-    \\#!-\\*- coding:utf-8 -\\*- 
-
-
-
-    \\#coding:utf-8 
+```
+\\#!-\\*- coding:utf-8 -\\*- 
 
 
 
+\\#coding:utf-8 
+```
 
+python3.x == unicode默认编码
 
-
-
-python3.x == unicode默认编码 
-
-
-
-
-
-
-
-
-
-
-
-unicode 是向下兼容gb2312 , gbk 
+unicode 是向下兼容gb2312 , gbk
 
 注释
 
@@ -427,7 +269,7 @@ tab != 4个空格
 
 
 
-缩进级别必须保持一致 
+缩进级别必须保持一致
 ```
 
 表达式for 循环
