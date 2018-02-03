@@ -206,11 +206,11 @@ Python2.x == Assic 默认编码
 \\#coding:utf-8
 ```
 
-python3.x == unicode默认编码
+### python3.x == unicode默认编码
 
-unicode 是向下兼容gb2312 , gbk
+### unicode 是向下兼容gb2312 , gbk
 
-注释
+### **注释**
 
 ```
 单行注释 用\#
@@ -218,7 +218,7 @@ unicode 是向下兼容gb2312 , gbk
 多行注释用三个单引号或三个双引号 '''被注释的内容'''
 ```
 
-用户输入
+#### **用户输入**
 
 模块初识
 
