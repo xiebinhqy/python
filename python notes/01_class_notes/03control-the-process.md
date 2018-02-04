@@ -20,43 +20,36 @@
 6. #### 驼峰式命、 下划线分割单词
 7. #### 变量名区分大小写
 
+if控制语句
+
+```py
 a=1
-
 b=2
-
-if  a&lt;b:
-
-```
-print\("Yes"\)
-
-print\("Yes"\)
-
-print\("Yes"\)
-
-print\("Yes"\)
-```
-
+if  a<b:
+    print("Yes"\)
+    print("Yes"\)
+    print("Yes"\)
+    print("Yes"\)
 else:
-
-```
-print\("No"\)
+    print("No"\)
 ```
 
+
+
+```
 a=1
-
 b=2
-
-if a&gt;b:
-
-```
-print\("Yes"\)
-```
-
+if a>b:
+    print("Yes")
 elif a==b:
+    print("第三")
+else:
+    print("any")
+```
 
-```
-print\("第三"\)
-```
+
+
+
 
 else:
 
