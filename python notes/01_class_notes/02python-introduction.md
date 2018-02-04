@@ -237,15 +237,9 @@ age = input ("your age:")
 name = int(input("your name:"))
 ```
 
+### if函数
 
-
-
-
-
-
-
-
-
+注意：
 
 模块初识
 
