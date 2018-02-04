@@ -239,7 +239,7 @@ name = int(input("your name:"))
 
 ### if函数
 
-注意：
+python 函数缩进要一致，官方一致四个字符
 
 模块初识
 
