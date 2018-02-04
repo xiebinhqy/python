@@ -237,6 +237,16 @@ age = input ("your age:")
 name = int(input("your name:"))
 ```
 
+
+
+
+
+
+
+
+
+
+
 模块初识
 
 .pyc是个什么鬼？
