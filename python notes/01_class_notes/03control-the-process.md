@@ -47,15 +47,15 @@ else:
 
 ## python注释
 
- \# 单行注释
+\# 单行注释
 
 '''多行注释'''
 
 """ 多行注释 """
 
-input\(\)
+### input\(\)
 
-"abc" + "qwe"
+字符串拼接   "abc" + "qwe"
 
 file.py
 
