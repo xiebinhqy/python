@@ -223,14 +223,18 @@ Python2.x == Assic 默认编码
 python输入——用户交互程序：
 
 ```py
-
-
-
-
 name = input（“your name:”）
 age = input("your age:")
 
 ```
+
+注意：input 输入的是字符串，可以在前边加入int
+
+```py
+name = int(input("your name:"))
+```
+
+
 
 模块初识
 
