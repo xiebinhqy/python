@@ -229,6 +229,10 @@ age = input ("your age:")
 
 #### **注意：input 输入的都是字符串，可以在前边加入int**
 
+**int integer = 整数**
+
+**str string = 字符串**
+
 ```py
 name = int(input("your name:"))
 ```
