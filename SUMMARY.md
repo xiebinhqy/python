@@ -14,4 +14,6 @@
 
 * [Python课堂笔记](python notes/01_class_notes.md)
   * [01\_system history](python notes/01_class_notes/01system-history.md)
+  * [02\_python\_Introduction](python notes/01_class_notes/02python-introduction.md)
+  * [03\_Control the process](python notes/01_class_notes/03control-the-process.md)
 
